@@ -7,7 +7,7 @@ plugins_dir = Path.home() / 'Library/Application Scripts/com.shortcutlabs.FlicMa
 
 print()
 
-if not plugins_dir.exists() and plugins_dir.is_dir():
+if not plugins_dir.exists():
     sys.exit("Couldn't find the Flic app's plugin dir. Do you have the Flic app installed? https://flic.io/mac-app")
 
 plugin_name = 'co.nordprojects.flic-zoom-mute'
