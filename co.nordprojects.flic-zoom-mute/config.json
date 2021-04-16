@@ -1,0 +1,21 @@
+{
+	"pluginName": "Zoom Mute Control",
+	"pluginDescription": "Mute or unmute Zoom",
+	"pluginReadMore": "This action lets you control Zoom's mute setting.",
+	"protocolVersion": 1,
+	"actions":
+	[
+		{
+			"actionName": "Mute",
+			"fileName": "mute.sh"
+		},
+		{
+			"actionName": "Unmute",
+			"fileName": "unmute.sh"
+		},
+		{
+			"actionName": "Toggle mute",
+			"fileName": "toggle.sh"
+		}
+	]
+}
