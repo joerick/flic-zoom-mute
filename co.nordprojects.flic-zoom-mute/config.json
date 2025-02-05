@@ -16,6 +16,14 @@
 		{
 			"actionName": "Toggle mute",
 			"fileName": "toggle.sh"
+		},
+		{
+			"actionName": "Toggle video",
+			"fileName": "toggle_video.sh"
+		},
+		{
+			"actionName": "Start video",
+			"fileName": "enable_video.sh"
 		}
 	]
 }
